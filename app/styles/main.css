@@ -1,0 +1,47 @@
+#top-prefs ul.slmenu li.sl-item a.quickfind-link {
+	display: block;
+	color: #336699;
+	font-weight: bold;
+	text-align: left;
+	font-size: 11px;
+	line-height: 18px;
+	background: none;
+	margin-left: 0;
+	padding-left: 20px;
+}
+#top-prefs ul.slmenu li.sl-item a.quickfind-link:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#top-prefs ul.slmenu li.sl-item a.quickfind-link:hover, 
+#top-prefs ul.slmenu li.sl-item a.quickfind-link.qfactive {
+	background: #336699;
+	color: #fff;
+}
+#top-prefs ul.slmenu li.sl-item a.quickfind-link .ld-cam-icon {
+	width: 10px;
+	margin-top: 5px;
+	margin-left: -15px;
+	height: 8px;
+	background: url(http://e.cdn-surfline.com/global_includes/images/low-camera-icon-sprite.png) top left no-repeat;
+	float: left;
+	margin-bottom: 0px;
+}
+#top-prefs ul.slmenu li.sl-item a.quickfind-link:hover div.ld-cam-icon,
+#top-prefs ul.slmenu li.sl-item a.quickfind-link.qfactive div.ld-cam-icon {
+	width: 10px;
+	margin-top: 5px;
+	height: 8px;
+	background: url(http://e.cdn-surfline.com/global_includes/images/low-camera-icon-sprite.png) top left no-repeat;
+	background-position-y: -9px;
+	float: left;
+	margin-bottom: 0px;
+}
+#top-prefs ul.slmenu li.sl-item a.quickfind-link .cam-icon-title {
+	float: left;
+}
+
+.sl-content-base {
+	margin-bottom: 10px;
+}

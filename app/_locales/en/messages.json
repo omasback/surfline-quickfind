@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "surfline quickfind",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "quickly find spots on surfline.com with an autocompleting search box",
+    "description": "The description of the application"
+  }
+}
