@@ -1,6 +1,6 @@
 {
     "name": "Surfline Quickfind",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "manifest_version": 2,
     "description": "Adds typeahead search to the Surfline.com search box so you can quickly find spot reports",
     "icons": {
@@ -15,23 +15,22 @@
             "scripts/background.js"
         ]
     },
-    "omnibox": {
-        "keyword": "findsurf"
-    },
-    "content_scripts": [{
-        "matches": [
-            "http://www.surfline.com/*",
-            "https://www.surfline.com/*"
-        ],
-        "css": [
-            "styles/main.css"
-        ],
-        "js": [
-            "scripts/lodash.js",
-            "scripts/contentscript.js"
-        ],
-        "run_at": "document_end",
-        "all_frames": false
-    }],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.surfline.com/*",
+                "https://www.surfline.com/*"
+            ],
+            "css": [
+                "styles/main.css"
+            ],
+            "js": [
+                "scripts/lodash.js",
+                "scripts/contentscript.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": false
+        }
+    ],
     "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
 }
